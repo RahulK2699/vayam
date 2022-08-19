@@ -10,10 +10,8 @@ import FitnessCenterOutlinedIcon from "@mui/icons-material/FitnessCenterOutlined
 const CommonRoute = ({ children }) => {
   return (
     <div className=" max-w-3xl h-screen bg-bgblack relative z-0">
-      <div className="bg-bgblack px-5">
-        <div className="text-white max-h-[96vh] overflow-y-scroll pt-6">
-          {children}
-        </div>
+      <div className="text-white max-h-[96vh] overflow-y-scroll pt-6 bg-bgblack px-5">
+        {children}
       </div>
       <div className="flex w-full py-1 px-5 justify-between absolute bg-bgblack  bottom-0  z-10 ">
         <Link
